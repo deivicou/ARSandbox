@@ -256,7 +256,7 @@ Pasos de la calibración:
 ```bash
 xed ~/src/SARndbox-2.8/BoxLayout.txt &
 ```
-> Puede importarse la calibración realizada en otro equipo añadiendo los ficheros [`scripts/BoxLayout.txt`](config/BoxLayout.txt) y [`scripts/ProjectorMatrix.dat`](config/ProjectorMatrix.dat)
+> Puede importarse la calibración realizada en otro equipo añadiendo los ficheros [`config/BoxLayout.txt`](config/BoxLayout.txt) y [`config/ProjectorMatrix.dat`](config/ProjectorMatrix.dat)
 
 #### d) Calibración de la proyección
 
