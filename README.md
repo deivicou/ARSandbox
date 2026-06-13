@@ -3,10 +3,10 @@
 Realidad aumentada sobre un cajón de arena que representa mapas topográficos de calor con curvas de nivel en tiempo real, usando un sensor de profundidad Kinect y un proyector de tiro corto.
 
 <p>
-  <img src="docs/images/ARSandbox1.jpg" width="180"/>
-  <img src="docs/images/ARSandbox2.jpg" width="180"/>
-  <img src="docs/images/ARSandbox3.jpg" width="180"/>
-  <img src="docs/images/ARSandbox4.jpg" width="180"/>
+  <img src="docs/images/ARSandbox1.jpg" width="158"/>
+  <img src="docs/images/ARSandbox2.jpg" width="150"/>
+  <img src="docs/images/ARSandbox3.jpg" width="275"/>
+  <img src="docs/images/ARSandbox4.jpg" width="240"/>
 </p>
 
 ---
@@ -90,9 +90,13 @@ Es un proyecto muy vistoso para Ferias de Formación Profesional (FP), ya que co
 - Un equipo con gráfica Nvidia compatible (serie 16xxx, 20xxx o 30xxx).
 - **Linux Mint 19.3 Tricia (MATE)** o **Ubuntu 18.04 LTS** instalado.
   - Versiones más actuales dan problemas, ya que el proceso de instalación depende de repositorios obsoletos.
-  - Descarga de Linux Mint 19.1-19.2-19.3 (mate/cinnamon/xfce, 32/64 bits): [Internet Archive – Linux Mint](https://archive.org/details/linuxmint-19.1-19.2-19.3-mate-cinnamon-xfce-32bit-64bit) (subido por Vicente Tinajero Santiago).
+  - Descarga de Linux Mint 19.1-19.2-19.3 (mate/cinnamon/xfce, 32/64 bits): [Internet Archive – Linux Mint](https://archive.org/details/linuxmint-19.1-19.2-19-3-mate-cinnamon-xfce-32bit-64bit) (subido por Vicente Tinajero Santiago).
 - Kinect modelo 1414 o 1473 conectado por USB.
 - Proyector de tiro corto conectado por HDMI.
+
+Pasos de instalación: [Software Installation] (https://web.cs.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html)
+Ficheros descargados: [ARSandbox.zip] (https://drive.google.com/file/d/1Pnqtp_hyyoZxoA5wQP5VW9caTRmYjmq0/view?usp=drive_link) 
+
 
 ### Instalación automatizada
 
@@ -252,6 +256,7 @@ Pasos de la calibración:
 ```bash
 xed ~/src/SARndbox-2.8/BoxLayout.txt &
 ```
+> Puede importarse la calibración realizada en otro equipo añadiendo los ficheros [`scripts/BoxLayout.txt`](scripts/BoxLayout.txt) y [`scripts/ProjectorMatrix.dat`](scripts/ProjectorMatrix.dat)
 
 #### d) Calibración de la proyección
 
@@ -415,7 +420,7 @@ Fotografías del montaje físico (estructura, Kinect, proyector, cajón de arena
   <img src="docs/images/ARSandbox16.jpg" width="160"/>
 </p>
 
-Vídeo de demostración: `ARSandbox.mp4` (no incluido en este repositorio por tamaño; añadir manualmente en `docs/` si se desea).
+Vídeo de demostración: [ARSandbox.mp4](https://drive.google.com/file/d/1T2pYlE5pHsmH_Us2Hce2XCWklf_eNBh5/view?usp=sharing)
 
 ---
 
