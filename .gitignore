@@ -1,0 +1,11 @@
+# Fuentes y binarios descargados/compilados durante la instalación
+src/
+*.tar.gz
+*.zip
+
+# Vídeos de demostración (pueden ser pesados; añadir manualmente si se desea)
+*.mp4
+
+# Ficheros temporales del sistema
+*.log
+*~
