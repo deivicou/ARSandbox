@@ -3,10 +3,10 @@
 Realidad aumentada sobre un cajón de arena que representa mapas topográficos de calor con curvas de nivel en tiempo real, usando un sensor de profundidad Kinect y un proyector de tiro corto.
 
 <p>
-  <img src="docs/images/ARSandbox1.jpg" width="158"/>
-  <img src="docs/images/ARSandbox2.jpg" width="150"/>
-  <img src="docs/images/ARSandbox3.jpg" width="275"/>
-  <img src="docs/images/ARSandbox4.jpg" width="240"/>
+  <img src="images/ARSandbox1.jpg" width="158"/>
+  <img src="images/ARSandbox2.jpg" width="150"/>
+  <img src="images/ARSandbox3.jpg" width="275"/>
+  <img src="images/ARSandbox4.jpg" width="240"/>
 </p>
 
 ---
@@ -52,7 +52,7 @@ Es un proyecto muy vistoso para Ferias de Formación Profesional (FP), ya que co
 | **Tamaño de la caja** | 1 x 0.75 x 0.15 m |
 | **Distancia del proyector** | Ideal ~1 m; en este montaje es 0.73 m |
 
-<img src="docs/images/ARSandbox5.jpg" width="500"/>
+<img src="images/ARSandbox5.jpg" width="500"/>
 
 > **Nota:** es importante usar un sistema operativo "antiguo" (Mint 19.x / Ubuntu 18.04), ya que versiones más modernas dan problemas con los repositorios necesarios para compilar Vrui y el Kinect 3D Video Package. Esto, a su vez, limita las gráficas compatibles a las series Nvidia 16xxx/20xxx/30xxx.
 
@@ -94,8 +94,8 @@ Es un proyecto muy vistoso para Ferias de Formación Profesional (FP), ya que co
 - Kinect modelo 1414 o 1473 conectado por USB.
 - Proyector de tiro corto conectado por HDMI.
 
-Pasos de instalación: [Software Installation] (https://web.cs.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html)
-Ficheros descargados: [ARSandbox.zip] (https://drive.google.com/file/d/1Pnqtp_hyyoZxoA5wQP5VW9caTRmYjmq0/view?usp=drive_link) 
+Pasos de instalación: [Software Installation](https://web.cs.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html)
+Ficheros descargados: [ARSandbox.zip](https://drive.google.com/file/d/1Pnqtp_hyyoZxoA5wQP5VW9caTRmYjmq0/view?usp=drive_link) 
 
 
 ### Instalación automatizada
@@ -256,7 +256,7 @@ Pasos de la calibración:
 ```bash
 xed ~/src/SARndbox-2.8/BoxLayout.txt &
 ```
-> Puede importarse la calibración realizada en otro equipo añadiendo los ficheros [`scripts/BoxLayout.txt`](scripts/BoxLayout.txt) y [`scripts/ProjectorMatrix.dat`](scripts/ProjectorMatrix.dat)
+> Puede importarse la calibración realizada en otro equipo añadiendo los ficheros [`scripts/BoxLayout.txt`](config/BoxLayout.txt) y [`scripts/ProjectorMatrix.dat`](config/ProjectorMatrix.dat)
 
 #### d) Calibración de la proyección
 
@@ -403,21 +403,21 @@ endsection
 Fotografías del montaje físico (estructura, Kinect, proyector, cajón de arena y proyecciones de prueba):
 
 <p>
-  <img src="docs/images/ARSandbox6.jpg" width="160"/>
-  <img src="docs/images/ARSandbox7.jpg" width="160"/>
-  <img src="docs/images/ARSandbox8.jpg" width="160"/>
-  <img src="docs/images/ARSandbox9.jpg" width="160"/>
+  <img src="images/ARSandbox6.jpg" width="160"/>
+  <img src="images/ARSandbox7.jpg" width="160"/>
+  <img src="images/ARSandbox8.jpg" width="160"/>
+  <img src="images/ARSandbox9.jpg" width="160"/>
 </p>
 <p>
-  <img src="docs/images/ARSandbox10.jpg" width="160"/>
-  <img src="docs/images/ARSandbox11.jpg" width="160"/>
-  <img src="docs/images/ARSandbox12.jpg" width="160"/>
-  <img src="docs/images/ARSandbox13.jpg" width="160"/>
+  <img src="images/ARSandbox10.jpg" width="160"/>
+  <img src="images/ARSandbox11.jpg" width="160"/>
+  <img src="images/ARSandbox12.jpg" width="160"/>
+  <img src="images/ARSandbox13.jpg" width="160"/>
 </p>
 <p>
-  <img src="docs/images/ARSandbox14.jpg" width="160"/>
-  <img src="docs/images/ARSandbox15.jpg" width="160"/>
-  <img src="docs/images/ARSandbox16.jpg" width="160"/>
+  <img src="images/ARSandbox14.jpg" width="160"/>
+  <img src="images/ARSandbox15.jpg" width="160"/>
+  <img src="images/ARSandbox16.jpg" width="160"/>
 </p>
 
 Vídeo de demostración: [ARSandbox.mp4](https://drive.google.com/file/d/1T2pYlE5pHsmH_Us2Hce2XCWklf_eNBh5/view?usp=sharing)
