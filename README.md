@@ -2,10 +2,12 @@
 
 Realidad aumentada sobre un cajón de arena que representa mapas topográficos de calor con curvas de nivel en tiempo real, usando un sensor de profundidad Kinect y un proyector de tiro corto.
 
-![ARSandbox1](docs/images/ARSandbox1.jpg)
-![ARSandbox2](docs/images/ARSandbox2.jpg)
-![ARSandbox3](docs/images/ARSandbox3.jpg)
-![ARSandbox4](docs/images/ARSandbox4.jpg)
+<p>
+  <img src="docs/images/ARSandbox1.jpg" width="180"/>
+  <img src="docs/images/ARSandbox2.jpg" width="180"/>
+  <img src="docs/images/ARSandbox3.jpg" width="180"/>
+  <img src="docs/images/ARSandbox4.jpg" width="180"/>
+</p>
 
 ---
 
@@ -50,7 +52,7 @@ Es un proyecto muy vistoso para Ferias de Formación Profesional (FP), ya que co
 | **Tamaño de la caja** | 1 x 0.75 x 0.15 m |
 | **Distancia del proyector** | Ideal ~1 m; en este montaje es 0.73 m |
 
-![ARSandbox5](docs/images/ARSandbox5.jpg)
+<img src="docs/images/ARSandbox5.jpg" width="500"/>
 
 > **Nota:** es importante usar un sistema operativo "antiguo" (Mint 19.x / Ubuntu 18.04), ya que versiones más modernas dan problemas con los repositorios necesarios para compilar Vrui y el Kinect 3D Video Package. Esto, a su vez, limita las gráficas compatibles a las series Nvidia 16xxx/20xxx/30xxx.
 
@@ -395,17 +397,23 @@ endsection
 
 Fotografías del montaje físico (estructura, Kinect, proyector, cajón de arena y proyecciones de prueba):
 
-![ARSandbox6](docs/images/ARSandbox6.jpg)
-![ARSandbox7](docs/images/ARSandbox7.jpg)
-![ARSandbox8](docs/images/ARSandbox8.jpg)
-![ARSandbox9](docs/images/ARSandbox9.jpg)
-![ARSandbox10](docs/images/ARSandbox10.jpg)
-![ARSandbox11](docs/images/ARSandbox11.jpg)
-![ARSandbox12](docs/images/ARSandbox12.jpg)
-![ARSandbox13](docs/images/ARSandbox13.jpg)
-![ARSandbox14](docs/images/ARSandbox14.jpg)
-![ARSandbox15](docs/images/ARSandbox15.jpg)
-![ARSandbox16](docs/images/ARSandbox16.jpg)
+<p>
+  <img src="docs/images/ARSandbox6.jpg" width="160"/>
+  <img src="docs/images/ARSandbox7.jpg" width="160"/>
+  <img src="docs/images/ARSandbox8.jpg" width="160"/>
+  <img src="docs/images/ARSandbox9.jpg" width="160"/>
+</p>
+<p>
+  <img src="docs/images/ARSandbox10.jpg" width="160"/>
+  <img src="docs/images/ARSandbox11.jpg" width="160"/>
+  <img src="docs/images/ARSandbox12.jpg" width="160"/>
+  <img src="docs/images/ARSandbox13.jpg" width="160"/>
+</p>
+<p>
+  <img src="docs/images/ARSandbox14.jpg" width="160"/>
+  <img src="docs/images/ARSandbox15.jpg" width="160"/>
+  <img src="docs/images/ARSandbox16.jpg" width="160"/>
+</p>
 
 Vídeo de demostración: `ARSandbox.mp4` (no incluido en este repositorio por tamaño; añadir manualmente en `docs/` si se desea).
 
