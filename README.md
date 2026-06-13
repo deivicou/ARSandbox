@@ -436,4 +436,4 @@ Vídeo de demostración: [ARSandbox.mp4](https://drive.google.com/file/d/1T2pYlE
 
 ## Licencia
 
-Documenta este proyecto según convenga (por ejemplo, MIT, GPL, o uso interno educativo). Añadir un fichero `LICENSE` si se va a publicar públicamente.
+Este proyecto está basado en el proyecto ARSandbox desarrollado por UC Davis. Se reconocen y mantienen los créditos del trabajo original a sus respectivos autores. Esta versión incluye modificaciones o adaptaciones realizadas por el autor. El proyecto se distribuye bajo la Licencia Apache 2.0, lo que permite su uso, modificación, distribución y uso comercial, siempre que se conserven los avisos y términos de la licencia original. El software se proporciona "tal cual", sin garantía de ningún tipo, y el autor no se hace responsable del uso o de las consecuencias derivadas del mismo.
